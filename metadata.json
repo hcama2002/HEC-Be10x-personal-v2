@@ -1,0 +1,6 @@
+{
+  "name": "H-AI Solutions - Havovy Cama",
+  "description": "Personal AI & Automation portfolio website for Havovy Cama, Founder of H-AI Solutions, helping SMEs and individuals streamline workflows and boost productivity.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
