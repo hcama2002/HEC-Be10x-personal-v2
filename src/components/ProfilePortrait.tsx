@@ -61,7 +61,7 @@ export const ProfilePortrait: React.FC<ProfilePortraitProps> = ({
     }
   };
 
-  const imageSrc = customPhoto || PERSONAL_INFO.photoUrl || '/havovy-cama.svg';
+  const imageSrc = customPhoto || PERSONAL_INFO.photoUrl || '/GeminiAIEnhanced2025.png';
 
   return (
     <div className={`relative inline-block ${className}`}>
@@ -77,14 +77,14 @@ export const ProfilePortrait: React.FC<ProfilePortraitProps> = ({
               referrerPolicy="no-referrer"
               onError={() => {
                 // If specific url failed, fallback to default svg asset
-                if (imageSrc !== '/havovy-cama.svg') {
+                if (imageSrc !== '/GeminiAIEnhanced2025.png') {
                   setImageError(true);
                 }
               }}
             />
           ) : (
             <img
-              src="/havovy-cama.svg"
+              src="/GeminiAIEnhanced2025.png"
               alt={PERSONAL_INFO.name}
               className="w-full h-full object-cover rounded-xl"
               referrerPolicy="no-referrer"

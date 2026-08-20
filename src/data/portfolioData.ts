@@ -14,7 +14,7 @@ export const PERSONAL_INFO = {
   title: "Founder, H-AI Solutions | AI & Automation Specialist",
   email: "ponyfield2002-online@yahoo.co.uk",
   linkedin: "https://www.linkedin.com/in/havovycama",
-  photoUrl: "/havovy-cama.svg",
+  photoUrl: "/GeminiAIEnhanced2025.png",
   headline: "Helping Small Businesses Work Smarter with AI",
   heroSubtitle: "I help ambitious SME founders and individuals use AI and automation to reduce repetitive work, improve productivity and build better business processes — without replacing their people.",
   experience: "25+ Years Corporate",
