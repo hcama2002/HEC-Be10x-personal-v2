@@ -134,6 +134,25 @@ export const SERVICES_DATA: ServiceItem[] = [
       "Specialised lead triage and enquiry classification flows"
     ],
     idealFor: "SMEs with a clear operational bottleneck that off-the-shelf tools don't address."
+  },
+  {
+    id: "lead-generation",
+    title: "Lead Generation",
+    shortDescription: "Identify key decision-maker contacts for B2B sales outreach and targeted job applications.",
+    detailedDescription: "Leverage AI and automated discovery workflows to systematically find and verify high-value contacts. Whether sourcing qualified prospects to grow your sales pipeline or identifying hiring managers and recruiters for strategic job applications, we build targeted outreach frameworks with personalized messaging.",
+    iconName: "Target",
+    keyBenefits: [
+      "Precision contact discovery for B2B sales prospecting and strategic job applications",
+      "Automate finding decision-makers, verified emails, and LinkedIn profiles",
+      "Generate hyper-personalized outreach drafts that get opened and answered",
+      "Save 10+ hours per week of manual web searching and list building"
+    ],
+    exampleDeliverables: [
+      "Automated Sales Prospect & Account Discovery Pipelines",
+      "Targeted Hiring Manager & Recruiter Contact Matcher",
+      "Personalized Outreach Email & LinkedIn Message Playbooks"
+    ],
+    idealFor: "Founders growing sales pipelines and ambitious professionals targeting high-impact career opportunities."
   }
 ];
 
@@ -258,11 +277,11 @@ export const AI_OPPORTUNITIES: AIOpportunity[] = [
     id: "lead-generation",
     title: "Lead Generation",
     iconName: "Target",
-    opportunity: "Research prospects and automate parts of the lead qualification process.",
-    concreteExample: "Automatically look up prospective business websites, evaluate fit against your ideal customer criteria, and generate custom conversation starters based on their recent announcements.",
-    typicalSMEChallenge: "High-friction prospecting that burns hours on unpromising leads.",
-    automationApproach: "Automated prospect enrichment with custom criteria scoring.",
-    estimatedTimeSaving: "Up to 4–6 hours per week"
+    opportunity: "Identify and research decision-maker contacts for B2B sales and job applications.",
+    concreteExample: "Automatically discover target companies, verify key contact profiles (executives, sales prospects, or hiring managers), and draft tailored outreach messages customized to their latest news or job postings.",
+    typicalSMEChallenge: "Spending hours manually scouring LinkedIn, company directories, and job boards without verified contact info.",
+    automationApproach: "Automated prospect enrichment pipelines + custom qualification filters + tailored outreach drafts.",
+    estimatedTimeSaving: "Up to 5–8 hours per week"
   },
   {
     id: "training",

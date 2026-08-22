@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ArrowRight, Sparkles, Workflow, GraduationCap, BrainCircuit } from 'lucide-react';
+import { ArrowRight, Sparkles, Workflow, GraduationCap, BrainCircuit, Target } from 'lucide-react';
 import { motion } from 'motion/react';
 import { SERVICES_DATA } from '../data/portfolioData';
 import { ServiceItem } from '../types';
@@ -22,6 +22,8 @@ export const WhatIDo: React.FC<WhatIDoProps> = ({ onSelectServiceForInquiry }) =
         return <GraduationCap className="w-6 h-6 text-emerald-600" />;
       case 'BrainCircuit':
         return <BrainCircuit className="w-6 h-6 text-sky-600" />;
+      case 'Target':
+        return <Target className="w-6 h-6 text-rose-600" />;
       default:
         return <Sparkles className="w-6 h-6 text-blue-600" />;
     }
@@ -49,8 +51,8 @@ export const WhatIDo: React.FC<WhatIDoProps> = ({ onSelectServiceForInquiry }) =
           </p>
         </div>
 
-        {/* 4 Service Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+        {/* Service Cards Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {SERVICES_DATA.map((service, index) => (
             <motion.div
               key={service.id}
