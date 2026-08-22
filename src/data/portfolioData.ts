@@ -67,7 +67,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     id: "ai-training",
     title: "AI Training",
     shortDescription: "Help individuals and teams develop practical AI skills they can immediately use in their work.",
-    detailedDescription: "Hands-on, jargon-free coaching rooted in 25+ years of corporate talent development. We teach your staff how to use AI tools safely, ethically, and productively in their day-to-day responsibilities.",
+    detailedDescription: "Hands-on, jargon-free coaching rooted in 25+ years of corporate talent development. We teach you and/or your staff how to use AI tools safely, ethically, and productively in day-to-day responsibilities.",
     iconName: "GraduationCap",
     keyBenefits: [
       "Demystify AI for non-technical team members",
@@ -79,7 +79,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       "Step-by-step practical AI playbooks & reference guides",
       "1-on-1 coaching for founders and key operators"
     ],
-    idealFor: "Companies wanting their team to confidently adopt AI with best practices."
+    idealFor: "Individuals (of all ages and experiences) and companies wanting their teams to confidently adopt AI with best practices."
   },
   {
     id: "lead-generation",
