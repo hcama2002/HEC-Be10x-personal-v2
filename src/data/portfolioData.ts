@@ -89,7 +89,6 @@ export const SERVICES_DATA: ServiceItem[] = [
     iconName: "Target",
     keyBenefits: [
       "Precision contact discovery for B2B sales prospecting and strategic job applications",
-      "Automate finding decision-makers, verified emails, and LinkedIn profiles",
       "Generate hyper-personalized outreach drafts that get opened and answered",
       "Save 10+ hours per week of manual web searching and list building"
     ],
