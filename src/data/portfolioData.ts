@@ -64,6 +64,61 @@ export const PROBLEMS_DATA: ProblemCard[] = [
 
 export const SERVICES_DATA: ServiceItem[] = [
   {
+    id: "ai-training",
+    title: "AI Training",
+    shortDescription: "Help individuals and teams develop practical AI skills they can immediately use in their work.",
+    detailedDescription: "Hands-on, jargon-free coaching rooted in 25+ years of corporate talent development. We teach your staff how to use AI tools safely, ethically, and productively in their day-to-day responsibilities.",
+    iconName: "GraduationCap",
+    keyBenefits: [
+      "Demystify AI for non-technical team members",
+      "Establish responsible and secure data usage guidelines",
+      "Empower employees rather than making them fearful of displacement"
+    ],
+    exampleDeliverables: [
+      "Tailored interactive team training workshops",
+      "Step-by-step practical AI playbooks & reference guides",
+      "1-on-1 coaching for founders and key operators"
+    ],
+    idealFor: "Companies wanting their team to confidently adopt AI with best practices."
+  },
+  {
+    id: "lead-generation",
+    title: "Lead Generation",
+    shortDescription: "Identify key decision-maker contacts for B2B sales outreach and targeted job applications.",
+    detailedDescription: "Leverage AI and automated discovery workflows to systematically find and verify high-value contacts. Whether sourcing qualified prospects to grow your sales pipeline or identifying hiring managers and recruiters for strategic job applications, we build targeted outreach frameworks with personalized messaging.",
+    iconName: "Target",
+    keyBenefits: [
+      "Precision contact discovery for B2B sales prospecting and strategic job applications",
+      "Automate finding decision-makers, verified emails, and LinkedIn profiles",
+      "Generate hyper-personalized outreach drafts that get opened and answered",
+      "Save 10+ hours per week of manual web searching and list building"
+    ],
+    exampleDeliverables: [
+      "Automated Sales Prospect & Account Discovery Pipelines",
+      "Targeted Hiring Manager & Recruiter Contact Matcher",
+      "Personalized Outreach Email & LinkedIn Message Playbooks"
+    ],
+    idealFor: "Founders growing sales pipelines and ambitious professionals targeting high-impact career opportunities."
+  },
+  {
+    id: "ai-solutions",
+    title: "AI Solutions",
+    shortDescription: "Design simple, customised AI-powered solutions around real business problems.",
+    detailedDescription: "End-to-end scoping and delivery of bespoke AI-assisted solutions tailored to your unique operational domain—focusing on simplicity, reliability, and clear business outcomes.",
+    iconName: "BrainCircuit",
+    keyBenefits: [
+      "Purpose-built around your specific operational pain point",
+      "Prioritises simplicity over fragile over-engineering",
+      "Designed for ease of maintenance by your internal staff"
+    ],
+    exampleDeliverables: [
+      "Tailored AI assistants with your business context",
+      "Custom reporting & document processing pipelines",
+      "Specialised lead triage and enquiry classification flows"
+    ],
+    idealFor: "SMEs with a clear operational bottleneck that off-the-shelf tools don't address."
+  },
+  {
     id: "ai-productivity",
     title: "AI Productivity",
     shortDescription: "Identify practical opportunities where AI can save time and improve the way you work.",
@@ -98,61 +153,6 @@ export const SERVICES_DATA: ServiceItem[] = [
       "Cross-app data sync and structured logging"
     ],
     idealFor: "Businesses running recurring multi-step administrative or customer procedures."
-  },
-  {
-    id: "ai-training",
-    title: "AI Training",
-    shortDescription: "Help individuals and teams develop practical AI skills they can immediately use in their work.",
-    detailedDescription: "Hands-on, jargon-free coaching rooted in 25+ years of corporate talent development. We teach your staff how to use AI tools safely, ethically, and productively in their day-to-day responsibilities.",
-    iconName: "GraduationCap",
-    keyBenefits: [
-      "Demystify AI for non-technical team members",
-      "Establish responsible and secure data usage guidelines",
-      "Empower employees rather than making them fearful of displacement"
-    ],
-    exampleDeliverables: [
-      "Tailored interactive team training workshops",
-      "Step-by-step practical AI playbooks & reference guides",
-      "1-on-1 coaching for founders and key operators"
-    ],
-    idealFor: "Companies wanting their team to confidently adopt AI with best practices."
-  },
-  {
-    id: "ai-solutions",
-    title: "AI Solutions",
-    shortDescription: "Design simple, customised AI-powered solutions around real business problems.",
-    detailedDescription: "End-to-end scoping and delivery of bespoke AI-assisted solutions tailored to your unique operational domain—focusing on simplicity, reliability, and clear business outcomes.",
-    iconName: "BrainCircuit",
-    keyBenefits: [
-      "Purpose-built around your specific operational pain point",
-      "Prioritises simplicity over fragile over-engineering",
-      "Designed for ease of maintenance by your internal staff"
-    ],
-    exampleDeliverables: [
-      "Tailored AI assistants with your business context",
-      "Custom reporting & document processing pipelines",
-      "Specialised lead triage and enquiry classification flows"
-    ],
-    idealFor: "SMEs with a clear operational bottleneck that off-the-shelf tools don't address."
-  },
-  {
-    id: "lead-generation",
-    title: "Lead Generation",
-    shortDescription: "Identify key decision-maker contacts for B2B sales outreach and targeted job applications.",
-    detailedDescription: "Leverage AI and automated discovery workflows to systematically find and verify high-value contacts. Whether sourcing qualified prospects to grow your sales pipeline or identifying hiring managers and recruiters for strategic job applications, we build targeted outreach frameworks with personalized messaging.",
-    iconName: "Target",
-    keyBenefits: [
-      "Precision contact discovery for B2B sales prospecting and strategic job applications",
-      "Automate finding decision-makers, verified emails, and LinkedIn profiles",
-      "Generate hyper-personalized outreach drafts that get opened and answered",
-      "Save 10+ hours per week of manual web searching and list building"
-    ],
-    exampleDeliverables: [
-      "Automated Sales Prospect & Account Discovery Pipelines",
-      "Targeted Hiring Manager & Recruiter Contact Matcher",
-      "Personalized Outreach Email & LinkedIn Message Playbooks"
-    ],
-    idealFor: "Founders growing sales pipelines and ambitious professionals targeting high-impact career opportunities."
   }
 ];
 

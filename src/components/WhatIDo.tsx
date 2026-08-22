@@ -52,34 +52,34 @@ export const WhatIDo: React.FC<WhatIDoProps> = ({ onSelectServiceForInquiry }) =
         </div>
 
         {/* Service Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
           {SERVICES_DATA.map((service, index) => (
             <motion.div
               key={service.id}
               id={`service-card-${service.id}`}
-              whileHover={{ y: -4 }}
+              whileHover={{ y: -3 }}
               transition={{ duration: 0.2 }}
-              className="bg-white rounded-2xl p-7 border border-slate-200 shadow-xs hover:shadow-md hover:border-blue-300/80 transition-all flex flex-col justify-between group"
+              className="bg-white rounded-xl p-5 sm:p-6 border border-slate-200 shadow-2xs hover:shadow-sm hover:border-blue-300/80 transition-all flex flex-col justify-between group"
             >
               <div>
                 {/* Icon Container */}
-                <div className="w-12 h-12 rounded-xl bg-slate-50 border border-slate-100 flex items-center justify-center mb-6 group-hover:scale-105 group-hover:bg-blue-50/50 transition-transform">
+                <div className="w-10 h-10 rounded-lg bg-slate-50 border border-slate-100 flex items-center justify-center mb-4 group-hover:scale-105 group-hover:bg-blue-50/50 transition-transform">
                   {getIcon(service.iconName)}
                 </div>
 
                 {/* Title */}
-                <h3 className="text-xl font-bold text-slate-900 tracking-tight mb-3">
+                <h3 className="text-xl font-bold text-slate-900 tracking-tight mb-2">
                   {service.title}
                 </h3>
 
                 {/* Short Description */}
-                <p className="text-slate-600 text-sm leading-relaxed mb-6 font-normal">
+                <p className="text-slate-600 text-sm leading-relaxed mb-4 font-normal">
                   {service.shortDescription}
                 </p>
               </div>
 
               {/* Action Trigger */}
-              <div className="pt-4 border-t border-slate-100">
+              <div className="pt-3 border-t border-slate-100">
                 <button
                   type="button"
                   id={`learn-more-btn-${service.id}`}
