@@ -51,20 +51,16 @@ export const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
           <a 
             href="#home" 
             onClick={(e) => handleLinkClick(e, '#home')}
-            className="flex items-center gap-2.5 group"
+            className="flex items-center gap-2 group transition-transform hover:scale-[1.02] active:scale-[0.98]"
             id="brand-logo-link"
+            aria-label="H-AI Solutions Home"
           >
-            <div className="w-9 h-9 rounded-xl bg-slate-900 flex items-center justify-center text-white shadow-xs group-hover:bg-blue-600 transition-colors">
-              <span className="font-bold text-base tracking-tight font-mono text-sky-400">H</span>
-            </div>
-            <div className="flex flex-col">
-              <span className="font-bold text-slate-900 text-lg tracking-tight group-hover:text-blue-600 transition-colors leading-none">
-                {PERSONAL_INFO.brandName}
-              </span>
-              <span className="text-[11px] font-medium text-slate-500 tracking-wider uppercase mt-0.5">
-                Havovy Cama
-              </span>
-            </div>
+            <img 
+              src="/h-ai-logo.svg" 
+              alt="H-AI Solutions Logo" 
+              className="h-10 sm:h-12 w-auto object-contain drop-shadow-xs"
+              loading="eager"
+            />
           </a>
 
           {/* Desktop Navigation Links */}

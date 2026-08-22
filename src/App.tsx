@@ -10,7 +10,6 @@ import { TrustStrip } from './components/TrustStrip';
 import { ProblemSection } from './components/ProblemSection';
 import { WhatIDo } from './components/WhatIDo';
 import { InteractiveAIOpportunities } from './components/InteractiveAIOpportunities';
-import { ProjectsSection } from './components/ProjectsSection';
 import { JourneyTimeline } from './components/JourneyTimeline';
 import { AboutMe } from './components/AboutMe';
 import { CredibilitySection } from './components/CredibilitySection';
@@ -74,10 +73,7 @@ export default function App() {
         {/* 5. Interactive "Where Can AI Help?" */}
         <InteractiveAIOpportunities onSelectCategoryForInquiry={handleSelectCategoryForInquiry} />
 
-        {/* 6. Projects / Portfolio: What I've Been Building */}
-        <ProjectsSection />
-
-        {/* 8. My Journey: From Science & Engineering to AI & Automation */}
+        {/* 6. My Journey: From Science & Engineering to AI & Automation */}
         <JourneyTimeline />
 
         {/* 9. About Me */}

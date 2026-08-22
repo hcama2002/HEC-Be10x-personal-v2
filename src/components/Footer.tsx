@@ -17,9 +17,13 @@ export const Footer: React.FC = () => {
           
           {/* Brand Info */}
           <div className="flex flex-col items-center md:items-start text-center md:text-left">
-            <div className="flex items-center gap-2 mb-1.5">
-              <div className="w-6 h-6 rounded-lg bg-blue-600 flex items-center justify-center text-white text-xs font-bold font-mono">
-                H
+            <div className="flex items-center gap-3 mb-2">
+              <div className="bg-white px-2 py-1 rounded-lg">
+                <img 
+                  src="/h-ai-logo.svg" 
+                  alt="H-AI Solutions Logo" 
+                  className="h-7 w-auto object-contain"
+                />
               </div>
               <span className="font-bold text-lg text-white tracking-tight">
                 {PERSONAL_INFO.brandName}

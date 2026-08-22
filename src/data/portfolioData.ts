@@ -12,7 +12,7 @@ export const PERSONAL_INFO = {
   brandName: "H-AI Solutions",
   tagline: "AI • AUTOMATION • PRODUCTIVITY",
   title: "Founder, H-AI Solutions | AI & Automation Specialist",
-  email: "ponyfield2002-online@yahoo.co.uk",
+  email: "contact@h-aisolutions.com",
   linkedin: "https://www.linkedin.com/in/havovycama",
   photoUrl: "/GeminiAIEnhanced2025.png",
   headline: "Helping Small Businesses Work Smarter with AI",

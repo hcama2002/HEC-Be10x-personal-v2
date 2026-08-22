@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 300" width="100%" height="100%">
+  <!-- Red 'H' -->
+  <path d="M 35 30 L 105 30 L 105 105 L 180 105 L 180 30 L 250 30 L 250 230 L 180 230 L 180 160 L 105 160 L 105 230 L 35 230 Z" fill="#EE1C25" />
+
+  <!-- Black 'A' with cutouts -->
+  <path d="M 255 30 L 320 30 L 420 230 L 350 230 L 328 185 L 248 185 L 225 230 L 155 230 L 255 30 Z" fill="#050505" />
+
+  <!-- White triangle cutout for 'A' cavity -->
+  <polygon points="288,75 258,145 318,145" fill="#FFFFFF" />
+
+  <!-- Black 'i' inside the 'A' cavity -->
+  <!-- Dot of 'i' -->
+  <circle cx="288" cy="115" r="14" fill="#050505" />
+  <!-- Stem of 'i' -->
+  <rect x="274" y="140" width="28" height="90" fill="#050505" />
+
+  <!-- 'SOLUTIONS' text underneath -->
+  <text x="288" y="278" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="900" letter-spacing="4" fill="#050505" text-anchor="middle">SOLUTIONS</text>
+</svg>
