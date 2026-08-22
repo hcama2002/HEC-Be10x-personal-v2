@@ -7,7 +7,7 @@ export const AboutMe: React.FC = () => {
   return (
     <section 
       id="about" 
-      className="py-20 md:py-28 bg-white border-b border-slate-200/80"
+      className="py-20 md:py-28 bg-slate-50 border-b border-slate-200/80"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
@@ -16,7 +16,7 @@ export const AboutMe: React.FC = () => {
           <div className="lg:col-span-5 flex justify-center">
             <div className="relative w-full max-w-md">
               {/* Outer decorative card */}
-              <div className="rounded-3xl bg-slate-50 border border-slate-200 p-6 sm:p-8 text-center shadow-xs">
+              <div className="rounded-3xl bg-white border border-slate-200/90 p-6 sm:p-8 text-center shadow-xs">
                 
                 {/* Visual Avatar / Photo Presentation */}
                 <ProfilePortrait 

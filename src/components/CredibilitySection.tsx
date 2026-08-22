@@ -39,7 +39,7 @@ export const CredibilitySection: React.FC = () => {
   return (
     <section 
       id="credibility" 
-      className="py-20 md:py-28 bg-slate-50 border-b border-slate-200/80"
+      className="py-20 md:py-28 bg-white border-b border-slate-200/80"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
@@ -54,7 +54,7 @@ export const CredibilitySection: React.FC = () => {
           </h2>
 
           {/* User Required Core Message */}
-          <div className="p-5 rounded-2xl bg-white border border-slate-200/90 text-slate-800 text-base sm:text-lg leading-relaxed shadow-2xs">
+          <div className="p-5 rounded-2xl bg-slate-50 border border-slate-200/90 text-slate-800 text-base sm:text-lg leading-relaxed shadow-2xs">
             <p className="font-semibold text-slate-900">
               "{PERSONAL_INFO.credibilityMessage}"
             </p>
@@ -67,9 +67,9 @@ export const CredibilitySection: React.FC = () => {
             <div
               key={pillar.title + index}
               id={`credibility-pillar-${index}`}
-              className="bg-white rounded-xl p-5 border border-slate-200/90 shadow-2xs hover:shadow-xs transition-all flex flex-col"
+              className="bg-slate-50/70 rounded-xl p-5 border border-slate-200/90 shadow-2xs hover:shadow-xs transition-all flex flex-col"
             >
-              <div className="w-10 h-10 rounded-lg bg-slate-50 border border-slate-100 flex items-center justify-center mb-3.5">
+              <div className="w-10 h-10 rounded-lg bg-white border border-slate-200/80 flex items-center justify-center mb-3.5 shadow-2xs">
                 {getCredIcon(pillar.iconName)}
               </div>
 

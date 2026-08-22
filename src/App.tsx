@@ -21,7 +21,7 @@ export default function App() {
   const [inquiryContext, setInquiryContext] = useState<string>('');
 
   useEffect(() => {
-    const sections = ['home', 'what-i-do', 'ai-solutions', 'about', 'my-journey', 'contact'];
+    const sections = ['home', 'what-i-do', 'ai-opportunities', 'about', 'credibility', 'my-journey', 'contact'];
     
     const handleScroll = () => {
       const scrollPosition = window.scrollY + 200;
@@ -69,16 +69,16 @@ export default function App() {
         {/* 5. Interactive "Where Can AI Help?" */}
         <InteractiveAIOpportunities onSelectCategoryForInquiry={handleSelectCategoryForInquiry} />
 
-        {/* 6. My Journey: From Science & Engineering to AI & Automation */}
-        <JourneyTimeline />
-
-        {/* 9. About Me */}
+        {/* 6. About Me */}
         <AboutMe />
 
-        {/* 10. Credibility Section: Experience That Goes Beyond AI */}
+        {/* 7. Credibility Section: Experience That Goes Beyond AI */}
         <CredibilitySection />
 
-        {/* 11. Contact Section */}
+        {/* 8. My Journey: From Science & Engineering to AI & Automation */}
+        <JourneyTimeline />
+
+        {/* 9. Contact Section */}
         <ContactSection inquiryContext={inquiryContext} />
       </main>
 
