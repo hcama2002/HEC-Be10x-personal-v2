@@ -112,6 +112,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     ],
     exampleDeliverables: [
       "Tailored AI assistants with your business context",
+      "Personal and Business Website Development and Maintenance",
       "Custom reporting & document processing pipelines",
       "Specialised lead triage and enquiry classification flows"
     ],
