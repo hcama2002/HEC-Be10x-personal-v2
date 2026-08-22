@@ -15,7 +15,7 @@ export const PERSONAL_INFO = {
   email: "contact@h-aisolutions.com",
   linkedin: "https://www.linkedin.com/in/havovycama",
   photoUrl: "/GeminiAIEnhanced2025.png",
-  headline: "Helping Small Businesses Work Smarter with AI",
+  headline: "Helping Individuals and Small Businesses Work Smarter with AI",
   heroSubtitle: "I help ambitious SME founders and individuals use AI and automation to reduce repetitive work, improve productivity and build better business processes — without replacing their people.",
   experience: "25+ Years Corporate",
   expertise: "Six Sigma Black Belt • Training • Change Management",
