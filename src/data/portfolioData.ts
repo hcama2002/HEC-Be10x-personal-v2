@@ -167,7 +167,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       "Update SME policies and procedures to reflect new operational processes"
     ],
     exampleDeliverables: [
-      "AI & Operational Readiness Assessment",
+      "Individual & Organisational Change Readiness for AI Adoption",
       "Process Improvement & AI Opportunity Review",
       "Change Enablement & Roadblock Removal Strategy",
       "Updated SME Policies & Operating Procedures Framework"
