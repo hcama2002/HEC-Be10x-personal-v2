@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ArrowRight, Sparkles, Workflow, GraduationCap, BrainCircuit, Target } from 'lucide-react';
+import { ArrowRight, Sparkles, Workflow, GraduationCap, BrainCircuit, Target, Compass } from 'lucide-react';
 import { motion } from 'motion/react';
 import { SERVICES_DATA } from '../data/portfolioData';
 import { ServiceItem } from '../types';
@@ -24,6 +24,8 @@ export const WhatIDo: React.FC<WhatIDoProps> = ({ onSelectServiceForInquiry }) =
         return <BrainCircuit className="w-6 h-6 text-sky-600" />;
       case 'Target':
         return <Target className="w-6 h-6 text-rose-600" />;
+      case 'Compass':
+        return <Compass className="w-6 h-6 text-amber-600" />;
       default:
         return <Sparkles className="w-6 h-6 text-blue-600" />;
     }

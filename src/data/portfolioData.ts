@@ -153,6 +153,26 @@ export const SERVICES_DATA: ServiceItem[] = [
       "Cross-app data sync and structured logging"
     ],
     idealFor: "Businesses running recurring multi-step administrative or customer procedures."
+  },
+  {
+    id: "change-management",
+    title: "Change Management",
+    shortDescription: "Assess AI readiness, optimize underlying workflows, and remove non-financial obstacles to adoption.",
+    detailedDescription: "Experienced guidance using change management tools to help individuals and SMEs assess readiness for adopting AI to boost productivity. We review current business processes to identify improvements that make AI tools significantly more effective, remove non-financial roadblocks affecting change, and support updating company policies and procedures to embed new practices.",
+    iconName: "Compass",
+    keyBenefits: [
+      "Assess AI adoption readiness for individuals and SME teams",
+      "Review and optimize business processes for maximum AI effectiveness",
+      "Identify and eliminate non-financial obstacles affecting change",
+      "Update SME policies and procedures to reflect new operational processes"
+    ],
+    exampleDeliverables: [
+      "AI & Operational Readiness Assessment",
+      "Process Improvement & AI Opportunity Review",
+      "Change Enablement & Roadblock Removal Strategy",
+      "Updated SME Policies & Operating Procedures Framework"
+    ],
+    idealFor: "Individuals and SMEs seeking a structured, low-friction approach to adopting AI and embedding new ways of working."
   }
 ];
 
