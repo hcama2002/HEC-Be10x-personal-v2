@@ -6,7 +6,6 @@
 import React, { useState, useEffect } from 'react';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
-import { TrustStrip } from './components/TrustStrip';
 import { ProblemSection } from './components/ProblemSection';
 import { WhatIDo } from './components/WhatIDo';
 import { InteractiveAIOpportunities } from './components/InteractiveAIOpportunities';
@@ -61,10 +60,7 @@ export default function App() {
         {/* 1. Hero Section */}
         <Hero />
 
-        {/* 2. Trust / Experience Strip */}
-        <TrustStrip />
-
-        {/* 3. The Problem Section */}
+        {/* 2. The Problem Section */}
         <ProblemSection />
 
         {/* 4. What I Do */}

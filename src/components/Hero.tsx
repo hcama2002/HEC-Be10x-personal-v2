@@ -219,7 +219,7 @@ export const Hero: React.FC = () => {
                   </div>
 
                   {/* Credibility quote snippet */}
-                  <div className="w-full mt-3 p-3 rounded-xl bg-slate-900 text-slate-200 text-xs text-center font-medium leading-relaxed">
+                  <div className="w-full mt-3 p-3 rounded-xl bg-slate-50 text-slate-700 border border-slate-200/70 text-xs text-center font-medium leading-relaxed">
                     "AI should turn from something you experiment with into something you actually use every day to save hours."
                   </div>
                 </div>
