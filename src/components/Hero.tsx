@@ -1,5 +1,5 @@
 import React from 'react';
-import { CheckCircle, Sparkles, Workflow, Zap, Mail } from 'lucide-react';
+import { CheckCircle, Sparkles, Workflow, Zap } from 'lucide-react';
 import { motion } from 'motion/react';
 import { PERSONAL_INFO } from '../data/portfolioData';
 import { ProfilePortrait } from './ProfilePortrait';
@@ -55,28 +55,11 @@ export const Hero: React.FC = () => {
               initial={{ opacity: 0, y: 16 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
-              className="text-lg sm:text-xl text-slate-600 leading-relaxed max-w-2xl mb-8 font-normal"
+              className="text-lg sm:text-xl text-slate-600 leading-relaxed max-w-2xl font-normal"
               id="hero-supporting-text"
             >
               {PERSONAL_INFO.heroSubtitle}
             </motion.p>
-
-            {/* Call to Actions */}
-            <motion.div 
-              initial={{ opacity: 0, y: 16 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.3 }}
-              className="flex flex-wrap items-center gap-4 w-full sm:w-auto"
-            >
-              <a
-                href={`mailto:${PERSONAL_INFO.email}?subject=${encodeURIComponent('Inquiry: Start a Conversation - AI & Automation')}&body=${encodeURIComponent('Hello Havovy,\n\nI would like to start a conversation about practical AI and automation opportunities for my business.\n\nBest regards,')}`}
-                id="hero-primary-cta"
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-7 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-base shadow-sm hover:shadow-md transition-all active:scale-[0.98]"
-              >
-                <Mail className="w-4 h-4 text-white" />
-                <span>Start a Conversation</span>
-              </a>
-            </motion.div>
 
             {/* Experience, Expertise, Education Highlights */}
             <motion.div 
