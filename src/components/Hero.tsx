@@ -1,17 +1,10 @@
 import React from 'react';
-import { ArrowRight, MessageSquare, Bot, Cpu, CheckCircle, Sparkles, Workflow, ShieldCheck, Zap, Send, Mail } from 'lucide-react';
+import { CheckCircle, Sparkles, Workflow, Zap, Mail } from 'lucide-react';
 import { motion } from 'motion/react';
 import { PERSONAL_INFO } from '../data/portfolioData';
 import { ProfilePortrait } from './ProfilePortrait';
 
 export const Hero: React.FC = () => {
-  const handleScrollTo = (targetId: string) => {
-    const targetElement = document.querySelector(targetId);
-    if (targetElement) {
-      targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
-  };
-
   return (
     <section 
       id="home" 
@@ -75,22 +68,12 @@ export const Hero: React.FC = () => {
               transition={{ duration: 0.5, delay: 0.3 }}
               className="flex flex-wrap items-center gap-4 w-full sm:w-auto"
             >
-              <button
-                type="button"
-                id="hero-primary-cta"
-                onClick={() => handleScrollTo('#ai-solutions')}
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-7 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-base shadow-sm hover:shadow-md transition-all active:scale-[0.98]"
-              >
-                <span>Explore My AI Solutions</span>
-                <ArrowRight className="w-4 h-4" />
-              </button>
-
               <a
                 href={`mailto:${PERSONAL_INFO.email}?subject=${encodeURIComponent('Inquiry: Start a Conversation - AI & Automation')}&body=${encodeURIComponent('Hello Havovy,\n\nI would like to start a conversation about practical AI and automation opportunities for my business.\n\nBest regards,')}`}
-                id="hero-secondary-cta"
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-6 py-3.5 rounded-xl bg-white hover:bg-slate-100/80 text-slate-800 font-semibold text-base border border-slate-200 shadow-xs hover:border-slate-300 transition-all active:scale-[0.98]"
+                id="hero-primary-cta"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-7 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-base shadow-sm hover:shadow-md transition-all active:scale-[0.98]"
               >
-                <Mail className="w-4 h-4 text-blue-600" />
+                <Mail className="w-4 h-4 text-white" />
                 <span>Start a Conversation</span>
               </a>
             </motion.div>
